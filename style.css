@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainbox{
+    background-color: blueviolet;
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px;
+}
+
+.box{
+    width: 100%;
+    max-width: 540px;
+    background: white;
+    margin: 100px auto 20px ;
+    padding:10px 20px;
+
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 30px;
+    padding: 20px;
+}
+
+.inputTask{
+    flex: 1;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    border: 5px;
+    background: transparent;
+
+}
+
+.button{
+    border: none;
+    outline: none;
+    padding: 15px 30px;
+    background-color: orange;
+    border-radius: 5px;
+}
+
+ul li{
+    list-style:circle;
+    user-select: none;
+    padding: 12px 8px 12px 50px;
+}
+
+ul li.checked{
+    color: #555;
+    text-decoration: line-through;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+}
+ul li span{
+   
+    width: 40px;
+    height: 40px;
+    font-size:22px ;
+    color: back;
+    line-height: 40px;
+    text-align: center;
+    align-items: center;
+}
+
